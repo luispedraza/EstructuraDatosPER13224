@@ -1,3 +1,4 @@
+package tema01a;
 
 public class Persona {
     int edad;
