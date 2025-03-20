@@ -6,7 +6,4 @@ public class Ocultacion {
         persona.setEdad(65);
         System.out.println(persona.getEdad());
     }
-
-
-
 }
