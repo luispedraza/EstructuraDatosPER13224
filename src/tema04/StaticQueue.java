@@ -1,9 +1,12 @@
+package tema04;
+
 /**
  * Implementación de una cola estática
  * Es fácil a partir de la implementación de la pila estática
  * El método que más cambia es dequeue si la cabeza está al comienzo.
  * El método que más cambia es enqueue si el final está al comienzo del array
  */
+
 public class StaticQueue {
     private int size;       // Tamaño máximo de la cola
     private int queue[];    // Estructura de datos auxiliar
