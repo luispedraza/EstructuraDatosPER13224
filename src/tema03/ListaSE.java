@@ -7,6 +7,7 @@ package tema03;
 public class ListaSE {
     Nodo first;
     Nodo last;
+    // int numElement;
 
     /**
      * Constructor de la lista
@@ -32,6 +33,8 @@ public class ListaSE {
             last = nuevo;
         }
     }
+
+
 
 
     @Override

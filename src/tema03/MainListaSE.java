@@ -9,8 +9,8 @@ public class MainListaSE {
         ListaSE lista = new ListaSE();
         System.out.println(lista);
         // Agregar elementos
-        lista.add("Hola");
-        lista.add("Luis");
+        lista.add("Pepe");
+        lista.add("María");
         System.out.println(lista);
     }
 }
