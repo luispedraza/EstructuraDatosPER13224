@@ -1,0 +1,26 @@
+# ignore all idea settings
+.idea/*
+*.iws
+*.iml
+*.ipr
+out/*
+
+# gradle project minimum
+!.idea/gradle.xml
+!.idea/misc.xml
+
+# enable plugin dependencies
+!.idea/externalDependencies.xml
+
+# enable codestyle, with save actions
+!.idea/codeStyles
+!.idea/saveactions_settting.xml
+
+# enable inspection rules
+!.idea/inspectionProfiles
+
+# enable annotation processor for lombok plugin
+!.idea/compiler.xml
+
+# enable checkstyle ide
+!.idea/checkstyle-idea.xml
