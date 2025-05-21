@@ -1,5 +1,6 @@
 package tema08.hashtest;
 
+import java.util.HashMap;
 import java.util.Random;
 import java.util.TreeMap;
 
@@ -7,8 +8,8 @@ public class HashMapTest {
 
     public static void main(String[] args) {
 
-        // HashMap<Integer, Integer> map = new HashMap<>();
-        TreeMap<Integer, Integer> map = new TreeMap<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
+        // TreeMap<Integer, Integer> map = new TreeMap<>();
 
         Random random = new Random();
 
