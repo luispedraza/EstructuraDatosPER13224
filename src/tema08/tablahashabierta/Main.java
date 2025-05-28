@@ -14,7 +14,7 @@ public class Main {
         int numeroElementos = 24;         // Número de elementos
         int longitudMaximaClave = 5;       // Longitud máxima de las claves
         int longitudClave;                // Longitud de la clave en proceso de generación
-        int i, j;                           // Índices para bucles
+        int i, j;                          // Índices para bucles
         int caracter;                     // caracter que forma parte de la clave (ASCII DE A=65 y de Z=90)
         String clave;                     // clave generada
         Elemento elemento;                // Elemento que se inserta en la tabla hash

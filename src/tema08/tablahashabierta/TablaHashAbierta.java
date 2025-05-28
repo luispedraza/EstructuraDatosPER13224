@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class TablaHashAbierta {
 
-    private int tamVector;                    // Tamaño del vector de soporte
+    private int tamVector;                      // Tamaño del vector de soporte
     private int numElementos;                   // Número de elementos almacenados en la tabla
     private LinkedList<Elemento>[] vector;    // Vector de soporte.
     // Recordemos: Cada elemento del vector es una lista de los elementos que colisionan
